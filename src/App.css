@@ -1,0 +1,15 @@
+/* * {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 20px 60px;
+  color: white;
+  background-color: #111;
+}
+a {
+  text-decoration: none;
+} */
+* {
+  margin: 0;
+}
+.app {
+  background-color: #111;
+}
