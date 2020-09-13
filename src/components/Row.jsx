@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect} from "react";
 import "./Row.css";
 import axios from "../axios";
 import movieTrailer from "movie-trailer";
@@ -6,7 +6,6 @@ import YouTube from "react-youtube";
 
 //const API_KEY = "fad866c27c86c4b55dbd8f0e152453c6";
 //const lang = "language=en-US";
-export const movieContext = createContext();
 //const baseUrl = "https://api.themoviedb.org/3";
 const imageBaseUrl = "https://image.tmdb.org/t/p/";
 //const file_path = "k68nPLbIST6NP96JmTxmZijEvCA.jpg";
